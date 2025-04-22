@@ -4,14 +4,15 @@ function toggleMode() {
 
   const img = document.querySelector("#profile img")
   if (html.classList.contains("light")) {
-    img.setAttribute("src", "../projeto-rocketseat/imagens/avatar-light.png")
+    img.setAttribute("src", "../imagens/avatarlight-.png")
   } else {
-    img.setAttribute("src", "../projeto-rocketseat/imagens/avatar-.png")
+    img.setAttribute("src", "../imagens/avatar-.png")
   }
-  /*if (html.classList.contains('light')) {
+
+  /*
+  if (html.classList.contains('light')) { img.setAttribute("src", "../imagens/avatarlight-.png")
     html.classList.remove('light')
-  } else {
+  } else { img.setAttribute("src", "../imagens/avatar.png")
     html.classList.add('light')
-  } temos uma maneira mais simples*/
-   
+  }temos uma maneira mais simples*/
 }
